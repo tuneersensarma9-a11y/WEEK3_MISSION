@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>GitHub User Search</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>GitHub User Search</h1>
+
+    <input type="text" id="searchInput" placeholder="Enter GitHub username..." />
+
+    <div id="loading" class="hidden">
+  <div class="spinner"></div>
+  <p>Fetching GitHub profile...</p>
+</div>
+
+    <div id="profileCard" class="card hidden">
+      <img id="avatar" src="" alt="avatar">
+      <h2 id="name"></h2>
+      <p id="bio"></p>
+      <p id="joined"></p>
+      <a id="portfolio" target="_blank">Portfolio</a>
+    </div>
+
+    <div id="error" class="error hidden">User Not Found</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
