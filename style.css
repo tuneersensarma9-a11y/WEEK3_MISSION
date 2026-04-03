@@ -82,3 +82,45 @@ img {
     transform: translateY(0); 
   }
 }
+/* Mobile View */
+@media (max-width: 600px) {
+
+  body {
+    padding: 20px;
+    height: auto;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  input {
+    width: 100%;
+    max-width: 320px;
+    font-size: 16px;
+    padding: 14px;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 320px;
+    margin: 20px auto;
+    padding: 18px;
+  }
+
+  img {
+    width: 80px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+}
