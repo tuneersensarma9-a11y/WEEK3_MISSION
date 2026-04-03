@@ -1,2 +1,2 @@
 # WEEK3_MISSION
-a GitHub User Search App.
+A GitHub User Search App.
